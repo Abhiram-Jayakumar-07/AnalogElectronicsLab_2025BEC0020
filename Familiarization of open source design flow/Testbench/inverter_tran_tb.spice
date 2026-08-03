@@ -1,0 +1,37 @@
+** sch_path: /foss/designs/inverter_tran_tb.sch
+**.subckt inverter_tran_tb Vout
+*.opin Vout
+Vdd Vdd 0 1.8
+Vin Vin 0 pulse(0 1.8 0 0.1n 0.1n 5n 10n)
+x1 Vdd Vin Vout 0 inverter
+**** begin user architecture code
+
+** opencircuitdesign pdks install
+.lib /foss/pdks/sky130A/libs.tech/combined/sky130.lib.spice tt
+
+
+
+.option savecurrents
+.control
+save all
+tran 0.1n 50n
+plot v(Vin) v(Vout)
+.endc
+
+
+**** end user architecture code
+**.ends
+
+* expanding   symbol:  inverter.sym # of pins=4
+** sym_path: /foss/designs/inverter.sym
+** sch_path: /foss/designs/inverter.sch
+.subckt inverter VP A Y VN
+*.iopin VP
+*.iopin VN
+*.ipin A
+*.opin Y
+XM44 Y A VN VN sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0 sd=0 mult=1
+XM1 Y A VP VP sky130_fd_pr__pfet_01v8 L=0.15 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0 sd=0 mult=1
+.ends
+
+.end
