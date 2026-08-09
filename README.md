@@ -1,5 +1,3 @@
 # Analog Electronics Labwork
 &nbsp;
-| Name | Rno |
-|:---|---:|
-| **Abhiram Jayakumar** | **2025BEC0020** |
+### Name&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Rno
