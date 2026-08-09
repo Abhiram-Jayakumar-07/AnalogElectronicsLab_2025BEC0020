@@ -1,5 +1,3 @@
 # Analog Electronics Labwork
-<br>
-Abhiram Jayakumar
-<br>
-2025BEC0020
+## Abhiram Jayakumar
+## 2025BEC0020
