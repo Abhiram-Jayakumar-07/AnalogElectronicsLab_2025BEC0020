@@ -1,4 +1,4 @@
 ### Analog Electronics Labwork
 
-Abhiram Jayakumar
+Abhiram Jayakumar  
 2025BEC0020
