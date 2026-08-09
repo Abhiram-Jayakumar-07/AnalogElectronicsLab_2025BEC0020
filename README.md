@@ -1,4 +1,5 @@
-### Analog Electronics Labwork
+### Analog Electronics
+## Labwork
 <br>
 Abhiram Jayakumar
 <br>
