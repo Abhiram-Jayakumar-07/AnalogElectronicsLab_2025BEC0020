@@ -1,4 +1,5 @@
 # Analog Electronics Labwork
 &nbsp;
-### Name <span align="right">Rno</span>
-
+<h3 style="display: flex; justify-content: space-between;">
+  <span>Name</span><span>Rno</span>
+</h3>
